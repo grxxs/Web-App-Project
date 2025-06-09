@@ -766,6 +766,10 @@ footer span {
 }
 
 @media (max-width: 991.98px) {
+  .parallax-photo {
+    background-attachment: scroll;
+    background-position: center center;
+  }
   .inspire-text {
     margin-top: 1rem;
   }
