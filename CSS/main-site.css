@@ -431,8 +431,6 @@ html {
 .planning-result {
   margin-top: 3rem;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .swiper-slide,
@@ -466,6 +464,9 @@ html {
   font-size: 2rem;
   font-weight: var(--font-bold);
   color: var(--black);
+  word-break: break-word;
+  overflow-wrap: break-word;
+  width: 80%;
 }
 
 .trip-content p {
@@ -500,18 +501,23 @@ html {
 }
 
 #swiper-2 {
+  margin: 0 auto;
   width: 100%;
 }
 
 #swiper-2.swiper-off .swiper-slide-off {
   margin: 0px 1rem;
-  min-height: 300px;
-  flex: 1 1 500px;
+  min-height: 280px;
+  max-width: 500px;
+  width: 100%;
 }
 
 #swiper-2.swiper-off .swiper-wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .trip-places,
@@ -829,22 +835,6 @@ footer span {
 }
 
 @media (max-width: 575.98px) {
-  .trip-header {
-    margin-bottom: 0.3rem;
-  }
-  .trip-content {
-    max-height: 150px;
-  }
-  .planned-trips {
-    height: 220px;
-  }
-  .trip-title {
-    font-size: 1.3rem;
-  }
-
-  .trip-content p {
-    font-size: 0.74rem;
-  }
   .swiper-pagination-bullet {
     width: 8px !important;
     height: 8px !important;
