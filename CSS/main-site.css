@@ -17,7 +17,8 @@ html {
 }
 
 .parallax-photo {
-  background-image: url(../Images/lagoon-4812995.jpg);
+  background-image: url(../Images/lagoon-4812995_1920.png);
+  background-color: #102030;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
