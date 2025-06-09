@@ -1,0 +1,232 @@
+{
+  "destinations": [
+    {
+      "city": "Paryż",
+      "country": "Francja",
+      "fact": "Wieża Eiffla miała zostać zdemontowana po 20 latach od wystawy światowej w 1889 roku.",
+      "attractions": [
+        {
+          "name": "Wieża Eiffla",
+          "description": "Ikoniczna wieża o wysokości 324 m, symbol Paryża."
+        },
+        {
+          "name": "Luwr",
+          "description": "Największe muzeum sztuki na świecie, dom Mona Lisy."
+        },
+        {
+          "name": "Katedra Notre-Dame",
+          "description": "Gotycka katedra z XIII wieku, znana z powieści Victora Hugo."
+        }
+      ]
+    },
+    {
+      "city": "Rzym",
+      "country": "Włochy",
+      "fact": "Rzym nazywany jest „Wiecznym Miastem”, ponieważ wierzono, że nigdy nie upadnie.",
+      "attractions": [
+        {
+          "name": "Koloseum",
+          "description": "Amfiteatr z czasów starożytnego Rzymu, symbol miasta."
+        },
+        {
+          "name": "Fontanna di Trevi",
+          "description": "Największa barokowa fontanna w Rzymie, znana z tradycji wrzucania monet."
+        },
+        {
+          "name": "Panteon",
+          "description": "Starorzymska świątynia z najlepiej zachowaną kopułą."
+        }
+      ]
+    },
+    {
+      "city": "Barcelona",
+      "country": "Hiszpania",
+      "fact": "Budowa bazyliki Sagrada Familia trwa od 1882 roku i nadal nie została ukończona.",
+      "attractions": [
+        {
+          "name": "Sagrada Familia",
+          "description": "Niedokończona bazylika zaprojektowana przez Gaudiego."
+        },
+        {
+          "name": "Park Güell",
+          "description": "Kolorowy park stworzony przez Antoniego Gaudiego."
+        },
+        {
+          "name": "La Rambla",
+          "description": "Słynny deptak pełen życia, artystów ulicznych i kafejek."
+        }
+      ]
+    },
+    {
+      "city": "Londyn",
+      "country": "Wielka Brytania",
+      "fact": "Big Ben to nazwa dzwonu, nie wieży zegarowej.",
+      "attractions": [
+        {
+          "name": "Big Ben",
+          "description": "Znana wieża zegarowa przy Pałacu Westminsterskim."
+        },
+        {
+          "name": "Tower Bridge",
+          "description": "Most zwodzony nad Tamizą, symbol Londynu."
+        },
+        {
+          "name": "British Museum",
+          "description": "Jedno z największych muzeów historii i kultury na świecie."
+        }
+      ]
+    },
+    {
+      "city": "Nowy Jork",
+      "country": "USA",
+      "fact": "Statua Wolności była darem od Francji dla USA w 1886 roku.",
+      "attractions": [
+        {
+          "name": "Statua Wolności",
+          "description": "Ikona wolności i symbol Nowego Jorku."
+        },
+        {
+          "name": "Central Park",
+          "description": "Ogromny park w sercu Manhattanu."
+        },
+        {
+          "name": "Empire State Building",
+          "description": "Jeden z najsłynniejszych drapaczy chmur świata."
+        }
+      ]
+    },
+    {
+      "city": "Tokio",
+      "country": "Japonia",
+      "fact": "Tokio jest największą metropolią świata z ponad 37 mln mieszkańców.",
+      "attractions": [
+        {
+          "name": "Świątynia Sensō-ji",
+          "description": "Najstarsza buddyjska świątynia w Tokio."
+        },
+        {
+          "name": "Shibuya Crossing",
+          "description": "Najbardziej zatłoczone przejście dla pieszych na świecie."
+        },
+        {
+          "name": "Tokyo Skytree",
+          "description": "Najwyższa wieża telewizyjna świata (634 m)."
+        }
+      ]
+    },
+    {
+      "city": "Bangkok",
+      "country": "Tajlandia",
+      "fact": "Pełna ceremonialna nazwa Bangkoku to najdłuższa nazwa miasta na świecie.",
+      "attractions": [
+        {
+          "name": "Wielki Pałac Królewski",
+          "description": "Dawna rezydencja królewska i centrum duchowe Tajlandii."
+        },
+        {
+          "name": "Świątynia Szmaragdowego Buddy",
+          "description": "Najważniejsza świątynia buddyjska w kraju."
+        },
+        {
+          "name": "Khao San Road",
+          "description": "Słynna ulica backpackerów pełna barów i taniego jedzenia."
+        }
+      ]
+    },
+    {
+      "city": "Sydney",
+      "country": "Australia",
+      "fact": "Opera w Sydney jest jednym z najbardziej rozpoznawalnych budynków XX wieku.",
+      "attractions": [
+        {
+          "name": "Sydney Opera House",
+          "description": "Ikoniczny budynek opery nad zatoką Sydney."
+        },
+        {
+          "name": "Harbour Bridge",
+          "description": "Ogromny stalowy most, oferujący możliwość wspinaczki."
+        },
+        {
+          "name": "Bondi Beach",
+          "description": "Słynna plaża surferska w Sydney."
+        }
+      ]
+    },
+    {
+      "city": "Praga",
+      "country": "Czechy",
+      "fact": "Zegar astronomiczny w Pradze działa nieprzerwanie od 1410 roku.",
+      "attractions": [
+        {
+          "name": "Most Karola",
+          "description": "Kamienny most z XIV wieku z pięknymi rzeźbami."
+        },
+        {
+          "name": "Zamek Praski",
+          "description": "Największy zamek starożytny na świecie."
+        },
+        {
+          "name": "Zegar astronomiczny",
+          "description": "Jeden z najstarszych działających zegarów astronomicznych."
+        }
+      ]
+    },
+    {
+      "city": "Amsterdam",
+      "country": "Holandia",
+      "fact": "Amsterdam ma więcej kanałów niż Wenecja.",
+      "attractions": [
+        {
+          "name": "Kanały Amsterdamu",
+          "description": "Sieć ponad 100 km kanałów wodnych."
+        },
+        {
+          "name": "Muzeum Van Gogha",
+          "description": "Największa kolekcja dzieł Van Gogha na świecie."
+        },
+        {
+          "name": "Dom Anny Frank",
+          "description": "Miejsce ukrywania Anny Frank podczas II wojny światowej."
+        }
+      ]
+    },
+    {
+      "city": "Dubaj",
+      "country": "Zjednoczone Emiraty Arabskie",
+      "fact": "Burj Khalifa to najwyższy budynek na świecie (828 m).",
+      "attractions": [
+        {
+          "name": "Burj Khalifa",
+          "description": "Najwyższy wieżowiec świata z tarasem widokowym."
+        },
+        {
+          "name": "Dubai Mall",
+          "description": "Największe centrum handlowe na świecie."
+        },
+        {
+          "name": "Palm Jumeirah",
+          "description": "Sztuczna wyspa w kształcie palmy."
+        }
+      ]
+    },
+    {
+      "city": "Bali",
+      "country": "Indonezja",
+      "fact": "Na Bali znajduje się ponad 20 000 świątyń.",
+      "attractions": [
+        {
+          "name": "Świątynia Uluwatu",
+          "description": "Świątynia na klifie z widokiem na ocean."
+        },
+        {
+          "name": "Tarasy ryżowe Tegallalang",
+          "description": "Malownicze tarasy ryżowe w Ubud."
+        },
+        {
+          "name": "Plaża Kuta",
+          "description": "Popularna plaża surfingowa na Bali."
+        }
+      ]
+    }
+  ]
+}

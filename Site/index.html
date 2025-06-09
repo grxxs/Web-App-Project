@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grzegorz Miazio">
+    <meta name="description" content="WanderWise - zaplanuj z nami swoją podróż">
+    <link rel="icon" type="image/png" href="../Icons/wanderwise_logo_compass.png">
+    <link rel="stylesheet" href="../CSS/main-nav.css">
+    <link rel="stylesheet" href="../CSS/main-site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>WanderWise</title>
+    <script src="../JS/navbar.js" defer></script>
+    <script src="../JS/main.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav aria-label="primary-navigation" class="navbar-bg">
+            <div class="logo" id="logo">
+                <img src="../Icons/wanderwise_logo_compass.png" alt="WanderWiseLogo">
+                <span>WanderWise</span>
+            </div>
+            <ul class="nav-bg">
+                <li class="nav-item-bg"><a href="#about-section">O nas</a></li>
+                <li class="nav-item-bg"><a href="#inspire-section">Inspiracje</a></li>
+                <li class="nav-item-bg"><a href="#planning-section">Podróżuj</a></li>
+                <li class="nav-item-bg"><a href="#trivia-section">Ciekawostki</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="primary-navigation" class="navbar-sm">
+            <ul class="nav-sm">
+                <li class="nav-item-sm"><a href="#about-section">O nas</a></li>
+                <li class="nav-item-sm"><a href="#inspire-section">Inspiracje</a></li>
+                <li class="nav-item-sm"><a href="#planning-section">Podróżuj</a></li>
+                <li class="nav-item-sm"><a href="#trivia-section">Ciekawostki</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="parallax-photo" id="parallax-scroll">
+        <div class="parallax-text">
+            <div class="parallax-text-cmp">
+                <p class="cmp-name">WanderWise</p>
+                <p class="cmp-subtext">&nbsp;- Twój osobisty planer podróży</p>
+            </div>
+            <div>
+                <p class="parallax-text-quote">Nie musisz podróżować daleko, by zacząć przygodę. Wystarczy dobry plan.
+                </p>
+            </div>
+            <div class="parallax-text-rest">
+                <span class="parallax-text-end">Zaplanuj. Zainspiruj sie.</span>
+                <a href="#planning-section" class="btn-plan">Wyrusz</a>
+            </div>
+        </div>
+        <div class="parallax-text-sm">
+            <div class="parallax-text-cmp-sm">
+                <p class="cmp-name-sm">WanderWise</p>
+            </div>
+            <div class="parallax-text-rest-sm">
+                <span class="parallax-text-end-sm">Zaplanuj. Zainspiruj sie.</span>
+                <a href="#planning-section" class="btn-plan-sm">Wyrusz</a>
+            </div>
+        </div>
+        <a href="#about-section" class="arrow-down">
+            <span></span></a>
+    </div>
+
+
+
+    <main id="main-content">
+        <section class="about-section" id="about-section">
+            <div class="about-container">
+                <div class="about-cont-text">
+                    <div class="primary text" data-aos="fade-right" data-aos-duration="1000">
+                        <p class="primary-text-header">Podróżowanie nigdy
+                            nie było tak łatwe!</p>
+                        <hr class="primary-text-hr" data-aos="zoom-in" data-aos-duration="1000">
+                        <p class="primary-text-p1">Zaplanuj każdy etap
+                            swojej wyprawy w jednym miejscu szybko,
+                            przejrzyście i bez stresu.
+                            Oszczędzaj czas, twórz trasy, dodawaj miejsca warte odwiedzenia i miej wszystko zawsze pod
+                            ręką.
+                        </p>
+                        <p class="primary-text-p1">
+                            <span class="primary-text-ww">WanderWise</span> to Twój osobisty asystent podróży.
+                            Inspiruje, porządkuje i pomaga ruszyć w
+                            drogę.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-cont-photo" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="../Images/city-4510433.jpg" alt="City-Trip">
+                </div>
+            </div>
+        </section>
+        <section class="inspire-section" id="inspire-section">
+            <div class="inspire-container">
+                <div class="inspire-gallery" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="swiper" id="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/boat-2096999_1280.jpg" alt="boat">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/firenze-4917213_1280.jpg" alt="firenze">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/lake-4389965_1280.jpg" alt="lake">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/machupicchu-1138641_1280.jpg" alt="maczupiczu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/road-4389960_1280.jpg" alt="droga">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/stockholm-6217412_1280.jpg" alt="sztokholm">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../Images/Places/union-station-2820165_1280.jpg" alt="union">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+                        <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="inspire-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <p class="inspire-header">
+                        Odkryj świat, który na Ciebie czeka
+                    </p>
+                    <hr class="inspire-hr" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="inspire-quote-container">
+                        <p class="inspire-quote-t1">
+                            Czasem jedno zdjęcie wystarczy, by zapragnąć wyruszyć w drogę. Nasza aplikacja to brama do
+                            miejsc, które czekają, byś je odkrył.
+                        </p>
+                        <p class="inspire-quote-t2">
+                            Pozwól sobie na chwilę marzeń i zaplanuj kolejną wyprawę. Przeglądaj zdjęcia i twórz swoją
+                            unikalną trasę.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="planning-section" id="planning-section">
+            <h3 class="planning-header">Zaplanuj podróż!</h3>
+            <form class="planning-form" id="planning-form">
+                <label for="tripName" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Nazwa
+                    podróży</label>
+                <input type="text" name="tripName" id="tripName" class="planning-input"
+                    pattern="^[A-Za-zÀ-ÿĄąĆćĘęŁłŃńÓóŚśŹźŻż0-9 .,!@#\$%\^&\*\(\)_\+=:;\-]{2,12}$"
+                    title="Nazwa może zawierać litery, cyfry i znaki specjalne, od 2 do 12 znaków" required
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <label for="tripStart" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Miejsce
+                    początkowe</label>
+                <input type="text" name="tripStart" id="tripStart" class="planning-input"
+                    pattern="^[A-Za-zÀ-ÿĄąĆćĘęŁłŃńÓóŚśŹźŻż]{2,15}$"
+                    title="Wpisz poprawną nazwę miejsca (od 2 do 15 liter, bez cyfr i znaków specjalnych)" required
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <label for="tripEnd" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Miejsce
+                    docelowe</label>
+                <input type="text" name="tripEnd" id="tripEnd" class="planning-input"
+                    pattern="^[A-Za-zÀ-ÿĄąĆćĘęŁłŃńÓóŚśŹźŻż]{2,15}$"
+                    title="Wpisz poprawną nazwę miejsca (od 2 do 15 liter, bez cyfr i znaków specjalnych)" required
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <label for="dateStart" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Data rozpoczęcia
+                    podróży</label>
+                <input type="date" name="dateStart" id="dateStart" class="planning-input" required data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="500">
+                <label for="dateEnd" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Data zakończenia
+                    podróży</label>
+                <input type="date" name="dateEnd" id="dateEnd" class="planning-input" required data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="600">
+                <label for="transportMethod" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Środek
+                    transportu</label>
+                <select name="transportMethod" id="transportMethod" class="planning-input" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="700" required>
+                    <option value="" disabled selected>-- Wybierz --</option>
+                    <option value="Samolot">Samolot</option>
+                    <option value="Pociąg">Pociąg</option>
+                    <option value="Samochód">Samochód</option>
+                    <option value="Autobus">Autobus</option>
+                    <option value="Inny">Inny</option>
+                </select>
+                <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">Nocleg</span>
+                <div class="radio-group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <div>
+                        <input type="radio" name="radioStay" id="stayHotel" value="Hotel">
+                        <label for="stayHotel">Hotel</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioStay" id="stayAirbnb" value="AirBnb">
+                        <label for="stayAirbnb">AirBnb</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioStay" id="stayHostel" value="Hostel">
+                        <label for="stayHostel">Hostel</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioStay" id="stayCamp" value="Kemping">
+                        <label for="stayCamp">Kemping</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioStay" id="stayOther" value="Inny" required>
+                        <label for="stayOther">Inne</label>
+                    </div>
+                </div>
+                <label for="additionalInfo" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="900">Notatka</label>
+                <textarea name="additionalInfo" id="additionalInfo" rows="4" class="planning-textarea"
+                    placeholder="Np. szczegóły noclegu, uwagi, dodatkowe informacje, bagaż..." maxlength="500"
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"></textarea>
+                <div class="btn-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                    <button type="submit" class="btn-form" id="btn-submit">Zapisz</button>
+                    <button type="reset" class="btn-form" id="btn-display" onclick="tripCancel()">Anuluj</button>
+                </div>
+            </form>
+            <div class="planning-result" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                <div class="swiper" id="swiper-2">
+                    <div class="swiper-wrapper" id="planning-result">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trivia-section" id="trivia-section">
+            <div class="trivia-container">
+                <div class="trivia-left">
+                    <img src="../Images/lightbulb.png" alt="lightbulb">
+                    <p>Czy wiesz, że...</p>
+                </div>
+                <div class="trivia-right">
+                    <div class="swiper" id="swiper-3">
+                        <div class="swiper-wrapper" id="trivia-result">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Wander<span>Wise</span>&nbsp;2025</p>
+    </footer>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+
+</html>
