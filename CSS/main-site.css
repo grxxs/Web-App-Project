@@ -434,6 +434,11 @@ html {
   width: 100%;
 }
 
+#start-planning {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
 .swiper-slide,
 .swiper-slide-off {
   overflow: visible !important;
@@ -467,7 +472,7 @@ html {
   color: var(--black);
   word-break: break-word;
   overflow-wrap: break-word;
-  width: 80%;
+  flex: 1;
 }
 
 .trip-content p {
@@ -591,7 +596,7 @@ html {
 }
 
 .trivia-left p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #333;
 }
@@ -836,6 +841,19 @@ footer span {
 }
 
 @media (max-width: 575.98px) {
+  .trip-title {
+    font-size: 1.5rem;
+  }
+
+  .trip-content p {
+    font-size: 0.7rem;
+  }
+  .trip-content {
+    max-height: 135px;
+  }
+  .planned-trips {
+    height: 220px;
+  }
   .swiper-pagination-bullet {
     width: 8px !important;
     height: 8px !important;
@@ -913,6 +931,50 @@ footer span {
 }
 
 @media (max-width: 479.98px) {
+  .trivia-left p {
+    font-size: 1rem;
+  }
+  .trivia-left {
+    height: 100px;
+  }
+
+  .trivia-left img {
+    width: 60px;
+  }
+  .trivia-slide-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .trivia-slide-content h2 {
+    font-size: 0.8rem;
+    color: #222;
+  }
+
+  .trivia-slide-content .fact {
+    font-style: italic;
+    margin: 8px 0px;
+    margin-left: 1px;
+    color: #555;
+    font-size: 0.6rem;
+  }
+
+  .trivia-slide-content h3 {
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    color: #444;
+  }
+
+  .attractions-list li {
+    margin-bottom: 8px;
+    font-size: 0.6rem;
+  }
   .inspire-container {
     padding: 5% 3%;
   }

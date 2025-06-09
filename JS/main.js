@@ -72,7 +72,7 @@ function display() {
 
   let out = "";
   if (!trips || trips.length === 0) {
-    result.innerHTML = "<p>Zacznij planować</p>";
+    result.innerHTML = "<p id='start-planning'>Zacznij planować</p>";
   } else {
     const useSwiper = trips.length > 3;
 
@@ -159,6 +159,9 @@ function editTrip(i) {
       break;
     }
   }
+
+  //prettier-ignore
+  document.getElementById("planning-section").scrollIntoView({ behavior: "smooth" });
 
   editIndex = i;
 }
