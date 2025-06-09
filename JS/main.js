@@ -208,7 +208,7 @@ new Swiper("#swiper", {
   },
 });
 
-fetch("../Destinations/destinations.json")
+fetch("./Destinations/destinations.json")
   .then((res) => {
     if (!res.ok) {
       throw new Error("Błąd: " + res.status);
