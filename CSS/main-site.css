@@ -107,13 +107,12 @@ html {
   align-items: center;
   justify-content: center;
   animation: bounce 2s infinite;
-  position: absolute;
-  bottom: 25%;
-  left: 50%;
+  position: relative;
+  top: 10%;
 }
 
 .arrow-down span {
-  display: inline-block;
+  display: block;
   width: 15px;
   height: 15px;
   border-left: 3px solid white;

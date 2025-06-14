@@ -83,7 +83,7 @@ function display() {
           <div class='planned-trips'>
             <div class="trip-header">
               <p class="trip-title">${trips[i].nazwa}</p>
-              <p><button type="button" class="btn-trip" onclick="deleteTrip(${i})"><i class="fa-solid fa-trash"></i></button><button class="btn-trip" onclick="editTrip(${i})"><i class="fa-solid fa-pen-to-square"></i></button></p>
+              <div><button type="button" class="btn-trip" onclick="deleteTrip(${i})"><i class="fa-solid fa-trash"></i></button><button class="btn-trip" onclick="editTrip(${i})"><i class="fa-solid fa-pen-to-square"></i></button></div>
             </div>
             <div class="trip-content">
               <p class="trip-places"><span><strong>Trasa:</strong></span><span> ${trips[i].poczatkowe}&nbsp;<i class="fa-solid fa-plane">&nbsp;</i>${trips[i].docelowe}</span></p> 
